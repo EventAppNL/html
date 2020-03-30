@@ -1,0 +1,201 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* Custom Css For Specifin landing page Event-o-app */
+
+body{
+    font-family:'Open Sans';
+}
+/* Navigation */
+#primary-menu ul li > a{
+    font-family: 'Roboto';
+}
+/* Navigation  End */
+
+/* Homepage Blog op more link*/
+.more-link{
+	font-style:normal;
+	color:#f6921d;
+	border-color:#f6921d;
+}
+/* Homepage Boxes Feature from Non Profit */
+.homepage-box-three .slider-feature {
+    position: relative;
+    transform: translateY(-20%);
+    z-index: 4;
+}
+.homepage-box-three .slider-feature a {
+    color: #222;
+    transition: all .2s ease;
+}
+.homepage-box-three .slider-feature .card-body{
+    font-family: 'Poppins', sans-serif;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+.homepage-box-three .slider-feature a:hover {
+/* background-color:rgba(254, 150, 3, 0.2784313725490196); */
+background-color:rgb(255, 227, 188);
+transform: translateY(-2px);
+z-index: 1;
+}
+
+.homepage-box-three .slider-feature a i {
+position: relative;
+top: 4px;
+font-size: 20px;
+padding-right: 6px;
+}
+
+/* Missions Gloals
+-----------------------------------------------------------------*/
+.missions-gloals .feature-box {
+	box-shadow: 0 0 10px rgba(99, 114, 130, 0.15);
+	padding: 30px 20px 0px;
+	min-height:215px; 
+	border-radius: 10px;
+}
+
+/* My base carousel bootstrap */
+.my-carousel .carousel-item {
+    height:60vh;
+    min-height:10rem;
+    background-size:70%;
+    /* background-position: 0; */
+background-position: center;
+    background-repeat:no-repeat;
+}
+.my-carousel .carousel-image{
+    margin:11.5% 10% auto;
+}
+.my-carousel .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color:#aaaaaa;
+}
+.my-carousel .carousel-indicators li.active{
+    background-color:#FE9603;
+}
+.my-carousel .carousel-control-prev-icon, .my-carousel .carousel-control-next-icon{
+    background-color:#555;
+    width:50px;
+    background-size:20px;
+    padding:30px;
+}
+.my-carousel .slider-title {
+    padding:0 30px;
+}
+.my-carousel .slider-title h3{
+    color: #000;
+    line-height: 55px;
+    color:#000;
+}
+
+/* Partners logo */
+#oc-clients .oc-item a{
+	display:block;
+	height:75px;
+	line-height:75px;
+}
+#oc-clients .oc-item img{
+	height:auto;
+	vertical-align:middle;
+	display:initial;
+}
+/* Partners Logo end */
+
+.home-box-feature .feature-box p{
+	color:#332e2e;
+}
+/* Homepage end */
+/* Orange Logo replace */
+.orange-logo-replace{
+	width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 60px;
+}
+
+/* == EVEnto app Direct Contact Feature boxes ==*/
+.event-feature-boxes .feature-box.fbox-bg.fbox-center{
+    min-height: 190px;
+}
+
+/* === Event Feature   === */
+
+/* Event Paragraph block */
+.event-block-app p{
+	font-size: var(--basefontsize);
+    color: #777;
+}
+/* List style square */
+.square-list{
+	list-style:square;
+}
+.square-list li{
+	font-weight:bold;
+	font-size:18px;
+	color:#000;
+	padding-bottom:5px;
+}
+.feature-box-height .feature-box {
+    min-height:260px;
+}
+.feature-box-height-longer .feature-box{
+    min-height:280px;
+}
+/* === Event Feature  end === */
+/*====  Voorwie page ==== */
+.voorwie-headings .heading-block h1,
+.voorwie-headings .heading-block h2,
+.voorwie-headings .heading-block h3, 
+.voorwie-headings .heading-block h4, 
+.voorwie-headings .emphasis-title h1, 
+.voorwie-headings .emphasis-title h2{
+    text-transform:unset;
+}
+/*====  Voorwie page end  ==== */
+/* === Pricing prijzen ====*/
+.event-price-boxes .pricing-box.best-price{
+	min-height:570px;
+}
+.event-price-boxes .pricing-box.best-price img{
+	margin-bottom:15px;
+}
+.m-20-price{
+	margin-top:20px;
+}
+.m-51-price{
+	margin-top:51px;
+}
+.event-price-boxes .pricing-features{
+		border:0;
+}
+/* === Pricing prijzen end====*/
+/*== Blog Details ==*/
+/*  Event - Breadcrumbs */
+#event-breadcrumb .breadcrumb{
+	position:relative!important;
+}
+/*== Blog Details ==*/
+@media screen and (min-width:1600px){
+	.my-carousel .carousel-item {
+		height:65vh;
+	}
+}
+@media screen and (min-width:1550px){
+	.my-carousel .slider-title h3{
+		font-size:40px;
+	}
+}
+@media screen and (max-width:1500px){
+	.my-carousel .slider-title h3{
+		font-size:32px;
+	}
+}
