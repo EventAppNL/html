@@ -38,6 +38,11 @@ body{
     font-weight: 400;
 }
 
+/* Homepage Voor section */
+.home-voor .feature-box p{
+	min-height:130px;
+}
+
 .homepage-box-three .slider-feature a:hover {
 /* background-color:rgba(254, 150, 3, 0.2784313725490196); */
 background-color:rgb(255, 227, 188);
@@ -93,7 +98,8 @@ background-position: center;
 }
 .my-carousel .slider-title h3{
     color: #000;
-    line-height: 55px;
+	/* line-height: 55px; */
+	line-height:40px;
     color:#000;
 }
 
@@ -150,6 +156,9 @@ background-position: center;
 .feature-box-height-longer .feature-box{
     min-height:280px;
 }
+.feature-box h3{
+	word-break:break-all;
+}
 /* === Event Feature  end === */
 /*====  Voorwie page ==== */
 .voorwie-headings .heading-block h1,
@@ -184,6 +193,11 @@ background-position: center;
 	position:relative!important;
 }
 /*== Blog Details ==*/
+@media screen and (max-width:1200px){
+	.home-voor .feature-box p{
+		min-height:100%;
+	}
+}
 @media screen and (min-width:1600px){
 	.my-carousel .carousel-item {
 		height:65vh;
