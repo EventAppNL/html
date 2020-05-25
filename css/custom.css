@@ -10,6 +10,21 @@
 body{
     font-family:'Open Sans';
 }
+
+/* Global change sub menu dropdown  */
+#primary-menu ul ul li > a{
+	font-weight:300;
+}
+.square-list li{
+	font-family:"Roboto";
+}
+#content p{
+	color:#332e2e;
+}
+.heading-block > p{
+	color:#444242;
+}
+
 /* Navigation */
 #primary-menu ul li > a{
     font-family: 'Roboto';
@@ -45,7 +60,9 @@ body{
 
 .homepage-box-three .slider-feature a:hover {
 /* background-color:rgba(254, 150, 3, 0.2784313725490196); */
-background-color:rgb(255, 227, 188);
+/*background-color:rgb(255, 227, 188);*/
+background-color: rgb(1, 136, 168);
+color:#fff;
 transform: translateY(-2px);
 z-index: 1;
 }
@@ -119,6 +136,15 @@ background-position: center;
 .home-box-feature .feature-box p{
 	color:#332e2e;
 }
+
+.home-box-feature .feature-box h2, .home-voor .feature-box h2{
+	font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #333;
+}
 /* Homepage end */
 /* Orange Logo replace */
 .orange-logo-replace{
@@ -149,6 +175,9 @@ background-position: center;
 	font-size:18px;
 	color:#000;
 	padding-bottom:5px;
+}
+.square-list li:hover a {
+	color: #FE9603!important;
 }
 .feature-box-height .feature-box {
     min-height:260px;
@@ -193,6 +222,78 @@ background-position: center;
 	position:relative!important;
 }
 /*== Blog Details ==*/
+
+.height-pricing-title{
+	min-height:455px;
+}
+
+/*  Main heading h2*/
+.heading-block > p{
+	color: #332e2e;
+}
+.square-list li:hover a {
+    color: #f6921e!important;
+}
+/* Text Dark  Navigation right */
+.text-dark{
+	color:#333!important;
+}
+.square-list li{
+	font-family:"Roboto";
+}
+
+.toggle .text-small{
+	font-size:12px;
+}
+.toggle .togglet i{
+	right:190px;
+	left:auto;
+}
+.my-toggle .togglec{
+	padding-left:0;
+}
+.my-toggle .togglec p{
+	list-style: circle;
+	font-size:10px;
+}
+.my-toggle .text-toggle{
+	font-size:12px;
+	margin-bottom:0px;
+    color: #555;
+    font-weight: 300;
+}
+.ideal-paragraph{
+	color:#555!important;
+}
+.big-price{
+	font-size:22px;
+}
+
+.acctitle{
+	font-size:12px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+.accordion.accordion-border .acc_content{
+	font-size:12px;
+	font-weight:300;
+}
+
+.accordion.accordion-border .acctitle i{
+	color:#f6921e;
+}
+.blog-details-paragraph p{
+	font-size:16px;
+}
+/* Footer  */
+.footer-widgets-wrap h4{
+	font-size:16px;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+	.missions-gloals .feature-box{
+		min-height:300px;
+	}
+}
 @media screen and (max-width:1200px){
 	.home-voor .feature-box p{
 		min-height:100%;

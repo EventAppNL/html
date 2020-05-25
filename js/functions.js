@@ -3106,7 +3106,7 @@ var SEMICOLON = SEMICOLON || {};
 					if( !trSpeed ) { trSpeed = 1200; }
 					if( !trSeparator ) { trSeparator = ","; }
 
-					var tRotater = $(this).find('.t-rotate');
+					var tRotater = $(this).find('.t-rotate').removeClass("d-none");
 
 					var pluginData = tRotater.Morphext({
 						animation: trRotate,

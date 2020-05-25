@@ -35,6 +35,75 @@
 	<!-- Document Title
 	============================================= -->
 	<title>Event-App - Prijzen</title>
+	<style>
+		.prijzen-content .pricing-features ul.ea-list-prices {
+			padding-left:20px; 
+			list-style:disc;
+		}
+		.prijzen-content .ea-list-prices li{
+			padding:2px 0px;
+		}
+		.prijzen-content .btn-with-border{
+			color:#FE9603;
+			background-color:transparent;
+		}
+		.prijzen-content .btn-with-border:hover{
+			background-color:#FE9603;
+			color:#fff;
+		}
+		.prijzen-content .small-ideaal .text-small{font-size:12px;}
+		.prijzen-content .event-price-boxes .pricing-box.best-price{
+			min-height:100%;
+		}
+		.prijzen-content .pricing-title span{
+			text-transform: lowercase;
+		}
+		.prijzen-content .single-event-ul-margin {
+		    margin-top: 23px;
+		}
+		.prijzen-content .small-ideaal .text-small:before{
+			/*content: "-";
+			position:absolute;
+			margin-left:-10px;*/
+		}
+		.prijzen-content .list-heights{
+			min-height:270px;
+		}
+		.prijzen-content .list-heights-two{
+			min-height:320px;
+		}
+		.prijzen-content .doit-height-list{
+			min-height:380px;
+		}
+		.prijzen-content .small-ideaal-one{
+			min-height:110px;
+		}
+		.prijzen-content .small-ideaal-two{
+			min-height:172px;
+		}
+		.prijzen-content .euro-price{
+			min-height:120px;
+		}
+		.prijzen-content .do-it-ideal-height{
+			min-height:149px;
+		}
+		.prijzen-content .margin-events{
+			margin-top:21px;
+		}
+		.prijzen-content .instant-event-height{
+			min-height:135px;
+		}
+		.separated-plus{
+			margin-bottom:40px;
+		}
+		.separated-plus p{
+			font-size:15px;
+		}
+
+		.pricing-box.best-price .pricing-title{
+		    padding: 20px 0 0px 0px;
+		}
+	</style>
 </head>
 
 <body class="stretched no-transition">
@@ -98,7 +167,7 @@
 
 		<!-- Content
 		============================================= -->
-		<section id="content">
+		<section id="content" class="prijzen-content">
 
 			<div class="content-wrap pt-0 pb-0">
 				<!-- Features
@@ -108,7 +177,7 @@
 						<div class="row">
 							<div class="col-12 col-lg-10 heading-block nobottomborder text-left left mb-0 clearfix" style="max-width: 550px">
 								<h3 class="nott ls0 mb-3">Laagdrempelig beginnen en op maat uitbreiden!</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+								<p>Natuurlijk wil je met je app goed voor de dag komen. Maar het moet wel binnen je budget passen. Daarom bieden we een laagdrempelige manier om snel uit de startblokken te komen. Je kunt veel zelf doen, maar we kunnen het ook voor je doen. En waar gewenst breiden we de basis samen uit met bijzondere functionaliteiten. Zo zie je: echt voor elk evenement hebben we een passende oplossing. </p> 
 							</div>
 						</div>
 					</div>
@@ -125,124 +194,381 @@
 							<div class="col-lg-4">
 
 								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/brand-kit/modules/product-icons/zendesk-support-icon-plain.svg" width="50" alt="">
-										<h3>full-service</h3>
-										<span>Volg supporttickets van klanten, geef de tickets een prioriteit en los ze op</span>
+									<div class="pricing-title pb-0 list-heights">
+										<div class="orange-logo-replace mb-4"></div>
+										<h3>instant event-app</h3>
+										<p class="mb-0">Wanneer je snel een uitgebreide event-app nodig hebt en je het geen probleem vindt om van een <a href="faq.html" target="_blank"> generieke app </a> gebruik te maken. De eventinformatie is natuurlijk wel helemaal in het design van jouw event!</p>
 									</div>
 									<!-- <div class="pricing-price">
 										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
 									</div> -->
 									<div class="pricing-features">
-										<ul>
-											<li>Ondersteuning voor internet, mobiele apparten, e-mail en sociale media</li>
-											<li>Context van de klant</li>
-											<li>Bedrijfsregels</li>
-											<li>Apps en integraties</li>
-											<li>Dashboard en rapporten</li>
-										</ul>
-										<div class="mb-4">
-											<a href="#" class="mb-4">Alle functies en prijzen weergeven</a>
-										</div>
+										
+											<div class="small-ideaal list-heights-two">
+												<p class="mb-0"><b>Inclusief:</b></p>
+												<ul class="ea-list-prices pb-0">
+													<li>beknopt intakegesprek
+														<a href="#Modal1" data-lightbox="inline" data-target=".bs-example-modal-md">
+															<i class="icon-info-sign"></i>
+														</a> 
+													 </li>
+													<li>standaard advies digital event design 
+														<a href="#Modal2" data-lightbox="inline" data-target=".bs-example-modal-md">
+															<i class="icon-info-sign"></i>
+														</a> 
+													 </li>
+													<li>event geheel in eigen vormgeving</li>
+													<li>on-boarding, korte training</li>
+													<li>éénmalige set-up op basis van door jou aan te leveren materialen</li><li>eerstelijns ondersteuning </li>
+												</ul>
+												<!-- Modal Popup  small -->
+												 <div class="modal1 mfp-hide" id="Modal1">
+											        <div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+											            <div class="center" style="padding: 50px;">
+											                <h3>Intakegesprek</h3>
+											                <p class="nobottommargin">Als het over eventtechnologie gaat, helpen we je graag de slimste keuzes te maken. Welke app past het best bij jouw event en welke modules kun je dan het best gebruiken (en waarom)? We denken met je mee over hoe je het meeste profijt hebt van beschikbare functionaliteiten en modules en hoe onze technologie aansluit op systemen die je al gebruikt. Het intakegesprek is er met name op gericht om je snel wegwijs te maken in de innovatieve wereld van event-apps. En natuurlijk kunnen we dan ook op hoofdlijnen het kostenplaatje bepalen. Op die manier Heb je behoefte aan een verdieping, dan plannen we een sessie voor Digital Event Design.</p>
+											            </div>
+											            <div class="section center nomargin" style="padding: 30px;">
+											                <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Close</a>
+											            </div>
+											        </div>
+											    </div>
+											    <!-- Modal Popup  TWOO HERE  small -->
+												 <div class="modal1 mfp-hide" id="Modal2">
+											        <div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+											            <div class="center" style="padding: 50px;">
+											                <h3>Digital Event Design</h3>
+											                <p class="nobottommargin">Technologie speelt steeds vaker een doorslaggevende rol als het gaat om het succes van een evenement. Daarom bekijken we graag samen met jou hoe digitale technologie jou kan helpen van je volgende event iets bijzonders te maken. We zetten je doelstellingen en specifieke wensen op een rij en helpen je een keuze te maken over apps, platformen en koppelingen.
+
+															We stellen samen een draaiboek op voor het event, delen Tips & Tricks en ondersteunen met handige checklists. Waar mogelijk helpen we je het programma en sessies zo in te richten dat je optimaal gebruik kunt maken van technologie voor publieksinteractie en interactief netwerken, bijvoorbeeld. En als het gaat om je sponsors en partners, dan adviseren we je over het creëren van exposure en het verbeteren van hun ROI.
+															</p>
+											            </div>
+											            <div class="section center nomargin" style="padding: 30px;">
+											                <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Close</a>
+											            </div>
+											        </div>
+											    </div>
+											</div>
+											<div class="small-ideaal mb-3 euro-price">
+												<p class="mb-0 ideal-paragraph"><b>Ideaal voor:</b></p>
+												<ul class="ea-list-prices pb-0">
+													<li>Events met een beperkte aantal deelnemers</li>
+													<li>Events waarbij de inhoud en functionaliteit belangrijker is dan ‘branding’</li>
+												</ul>
+												<!-- <p class="mb-0 ideal-paragraph">&bull; </p>
+												<p class="mb-0 ideal-paragraph">&bull; </p> -->
+											</div>
+											<div class="euro-price text-center mt-5">
+												<h4 class="mb-0">vanaf <span class="big-price">750 EUR </span>per event</h4>
+												<p>(License-only vanaf 499 EUR per event)</p>
+											</div>
+											<div class="toggle my-toggle text-center">
+												<div class="togglet pl-0">
+													<p class="text-toggle">Uiteindelijke kosten </p>
+													<i class="toggle-closed icon-line2-arrow-down" style="right:50px;"></i>
+													<i class="toggle-open icon-line2-arrow-up" style="right:50px;"></i> 
+												</div>
+												<div class="togglec">
+													<p class="text-small mb-0"> - Aantal uur voor de set-up (na de eerste 4 uur)</p>
+													<p class="text-small mb-0"> - Aantal extra diensten zoals On-Site Support en Maatwerk
+													 <a href="#Modal3" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+													</p>
+													<!-- Modal Popup  three HERE  small -->
+												 <div class="modal1 mfp-hide" id="Modal3">
+											        <div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+											            <div class="center" style="padding: 50px;">
+											                <h3>On-Site Support en Maatwerk</h3>
+											                <p class="nobottommargin">Naast dat we het registratieplatform en je event-app leveren inclusief alle ondersteuning die daar bij hoort (van op afstand), kunnen we je natuurlijk ook met raad en daad bijstaan op locatie, tijdens het event. Afhankelijk van wat je precies wilt dat we doen (installeren van badgeprinters, registreren van nieuwe deelnemers of het helpen van gasten bij het gebruik van de app), zijn daar extra kosten mee gemoeid. Ook wanneer we specifiek maatwerk voor je ontwikkelen, zal er sprake zijn van aanvullende kosten.
+															</p>
+											            </div>
+											            <div class="section center nomargin" style="padding: 30px;">
+											                <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Close</a>
+											            </div>
+											        </div>
+											    </div>
+													<p class="text-small mb-0"> - Aanvullende modules voor publiekinteractie, digitale check-in en meer
+													<a href="#Modal4" data-lightbox="inline" data-target=".bs-example-modal-md">
+															<i class="icon-info-sign"></i>
+														</a> 
+													</p>
+														<!-- Modal Popup  four here  small -->
+												 <div class="modal1 mfp-hide" id="Modal4">
+											        <div class="block divcenter" style="background-color: #FFF; max-width: 500px;">
+											            <div class="left" style="padding: 50px;">
+											                <h3>Aanvullende modules</h3>
+											                <p class="nobottommargin">
+											                Onze event-apps zijn standaard al heel erg uitgebreid. Maar om het licentiemodel flexibel te houden, maken we ook gebruik van aanvullende modules, zoals bijvoorbeeld (maar niet beperkt tot):</p>
+											                <ul class="text-left my-3 pl-3">
+											                	<li>publieksinteractie</li>
+											                	<li>gamification</li>
+											                	<li>interactief netwerken </li>
+											                	<li>self-service kiosks</li>
+											                	<li>interactieve plattegrond</li>
+											                	<li>leadgeneratie apps</li>
+											                	<li>indoornavigatie</li>
+											                </ul>
+
+															<p>De extra kosten van aanvullende modules hangen af van bijvoorbeeld het aantal deelnemers dat er gebruik van maakt of de benodigde tijd om de configuratie te doen.
+															</p>
+											            </div>
+											            <div class="section center nomargin" style="padding: 30px;">
+											                <a href="#" class="button" onClick="$.magnificPopup.close();return false;">Close</a>
+											            </div>
+											        </div>
+											    </div>
+												</div>
+											</div>
+											
+											
+											
 									</div>
-									<div class="pricing-action">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Gratis testen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
-									<div class="mt-4 text-center">
-										<a href="#" class="mb-4">Nu kopen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/kQH8tF" target="_blank" class="button button-dark button-rounded uppercase nomargin">Stuur mij een offerte</a>
 									</div>
 								</div>
-
 							</div>
 							<div class="col-lg-4">
 
 								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/brand-kit/modules/product-icons/zendesk-suite-icon-plain.svg" width="50" alt="">
+									<div class="pricing-title list-heights">
+										<div class="orange-logo-replace mb-4"></div>
 										<h3>single-event</h3>
-										<span>Wrijvingsloze	omnichannel support via elk kanaal</span>
+										<p class="mb-0">Een uitgebreide event-app  compleet pakket diensten waarmee je alle technologie die je voor je event nodig hebt zonder zorgen uit handen geeft.</p>
 									</div>
-									<!-- <div class="pricing-price">
-										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
-									</div> -->
+									
 									<div class="pricing-features">
-										<ul>
-											<li> Alles in Support, en</li>
-											<li>Live chat en messaging</li>
-											<li>Voice en Text </li>
-											<li>Kennisbank en selfservice</li>
-											<li>Dashboard en rapporten, voor elk kannal</li>
-										</ul>
-										<div class="mb-4 m-20-price">
-											<a href="#" class="mb-4">Alle functies en prijzen weergeven</a>
+										<div class="small-ideaal list-heights-two">
+											<p class="mb-0"><b>Inclusief:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>beknopt intakegesprek
+													<a href="#Modal1" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												 </li>
+												<li>maatwerk advies digital event design
+												<a href="#Modal2" data-lightbox="inline" data-target=".bs-example-modal-md">
+															<i class="icon-info-sign"></i>
+														</a> 
+												</li>
+												<li>mobile app geheel in eigen vormgeving</li>
+												<li>plaatsing in je eigen app store accounts </li>
+												<li>event geheel in eigen vormgeving </li>
+												<li>euitgebreide on-boarding, telefonische training </li>
+												<li>set-up op basis van door jou aan te leveren materialen </li>
+												<li>eerstelijns ondersteuning</li>
+												<li>onbeperkt uit te breiden </li>
+											</ul>
 										</div>
+										<div class="small-ideaal mb-3 euro-price">
+											<p class="mb-0 ideal-paragraph"><b>Ideaal voor:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>Events met eigen merkkracht en een groot aantal deelnemers</li>
+												<li>Events waarbij inhoud, functionaliteit en branding de Customer Experience bepalen</li>
+											</ul>
+										</div>
+										<div class="text-center euro-price mt-5">
+											<h4 class="mb-0">vanaf <span class="big-price">1.750 EUR </span>per event</h4>
+											
+										</div>
+										<div class="toggle my-toggle text-center">
+											<div class="togglet pl-0">
+												<p class="text-toggle">Uiteindelijke kosten afhankelijk van </p>
+												<i class="toggle-closed icon-line2-arrow-down" style="right:30px;"></i>
+												<i class="toggle-open icon-line2-arrow-up" style="right:30px;"></i> 
+											</div>
+											<div class="togglec">
+												<p class="text-small mb-0"> - Aantal uur voor de set-up (na de eerste 8 uur)</p>
+												<p class="text-small mb-0"> - Aantal extra diensten zoals On-Site Support en Maatwerk
+													 <a href="#Modal3" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> - Aanvullende modules voor publiekinteractie, digitale check-in en meer
+													<a href="#Modal4" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> - Integraties met externe systemen</p>
+											</div>
+										</div>
+										
 									</div>
-									<div class="pricing-action">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Gratis testen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
-									<div class="mt-4 text-center">
-										<a href="#" class="mb-4">Nu kopen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/kQH8tF" target="_blank" class="button button-dark button-rounded uppercase nomargin">Stuur mij een offerte</a>
 									</div>
 								</div>
-
 							</div>
 							<div class="col-lg-4">
 
 								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/p-pricing/2019/icon-build-your-own.svg" alt="">
+									<div class="pricing-title list-heights">
+										<div class="orange-logo-replace mb-4"></div>
 										<h3>multi-event</h3>
-										<span>Een persoonlijke aanpak voor ondernemers</span>
+										<p class="mb-0">Een uitgebreide event-app  compleet pakket diensten waarmee je alle technologie die je voor je event nodig hebt zonder zorgen uit handen geeft.</p>
 									</div>
-									<!-- <div class="pricing-price">
-										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
-									</div> -->
 									<div class="pricing-features">
-										<ul>
-											<li> Alles in Zendesk Suite, en </li>
-											<li>Sunshine CRM-platform</li>
-											<li>Geavanceerde beveiliging en compliance</li>
-											<li>Verandermanagement</li>
-											<li>Implementatieservices en training</li>
-											<li>Toegewijde technische support</li>
-										</ul>
+										<div class="small-ideaal list-heights-two">
+											<p class="mb-0"><b>Inclusief:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>beknopt intakegesprek 
+													<a href="#Modal1" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												 </li>
+												<li>
+													maatwerk advies digital event design
+													<a href="#Modal2" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</li>
+												<li>mobile app geheel in eigen vormgeving</li>
+												<li>plaatsing in je eigen app store accounts </li>
+												<li>elk event geheel in eigen vormgeving </li>
+												<li>uitgebreide on-boarding, telefonische training </li>
+												<li>set-up op basis van door jou aan te leveren materialen </li>
+												<li>eerstelijns ondersteuning</li>
+												<li>onbeperkt uit te breiden </li>
+											</ul>
+										</div>
+										<div class="small-ideaal mb-3 euro-price">
+											<p class="mb-0 ideal-paragraph"><b>Ideaal voor:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>Organisaties die meerdere kleine en/of grote events organiseren</li>
+												<li>Events waarbij inhoud, functionaliteit en branding de Customer Experience bepalen</li>
+											</ul>
+										</div>
+										<div class="text-center euro-price mt-5">
+											<h4 class="mb-0">vanaf <span class="big-price">1.950 EUR  </span>per jaar <br>en <span class="big-price">650 EUR</span> voor het eerste event</h4>
+											<!-- <p>(kosten per event afhankelijk van het aantal events per jaar en aantal deelnemers)</p> -->
+										</div>
+
+										<div class="toggle my-toggle text-center">
+											<div class="togglet pl-0">
+												<p class="text-toggle">Uiteindelijke kosten afhankelijk van </p>
+												<i class="toggle-closed icon-line2-arrow-down" style="right:30px;"></i>
+												<i class="toggle-open icon-line2-arrow-up" style="right:30px;"></i> 
+											</div>
+											<div class="togglec">
+												<p class="text-small mb-0"> - Aantal uur voor de set-up (na de eerste 12 uur)</p>
+												<p class="text-small mb-0"> -  Aantal extra diensten zoals On-Site Support en Maatwerk 
+												 	 <a href="#Modal3" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> - Aanvullende modules voor publiekinteractie, digitale check-in en meer 
+													<a href="#Modal4" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> - Aantal events per jaar en gemiddeld aantal deelnemers</p>
+												<p class="text-small mb-0"> - Integraties met externe systemen</p>
+											</div>
+										</div>
+										
 									</div>
-									<div class="pricing-action m-51-price">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Contact opnemen met sales</a>
+									<!--  Separate -->
+									
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
+									</div>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/kQH8tF" target="_blank" class="button button-dark button-rounded uppercase nomargin">Stuur mij een offerte</a>
 									</div>
 								</div>
 
 							</div>
 						</div>
+
 						<div class="row mt-5 missions-gloals event-price-boxes">
 							<div class="col-lg-4">
 
 								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/brand-kit/modules/product-icons/zendesk-support-icon-plain.svg" width="50" alt="">
+									<div class="pricing-title list-heights">
+										<div class="orange-logo-replace mb-4"></div>
 										<h3>full-service</h3>
-										<span>Volg supporttickets van klanten, geef de tickets een prioriteit en los ze op</span>
+										<p>Een compleet pakket licenties en ondersteunende diensten waarmee je alle technologie die je voor je event nodig hebt zonder zorgen uit handen geeft.</p>
 									</div>
-									<!-- <div class="pricing-price">
-										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
-									</div> -->
+									<div class="separated-plus">
+										<p class="mb-0"> <b>Online Registratie +</b></p>
+										<p class="mb-0"> <b>Event-App + </b></p>
+										<p class="mb-2"> <b>Digitale Check-In</b></p>
+									</div>
 									<div class="pricing-features">
-										<ul>
-											<li>Ondersteuning voor internet, mobiele apparten, e-mail en sociale media</li>
-											<li>Context van de klant</li>
-											<li>Bedrijfsregels</li>
-											<li>Apps en integraties</li>
-											<li>Dashboard en rapporten</li>
-										</ul>
-										<div class="mb-4">
-											<a href="#" class="mb-4">Alle functies en prijzen weergeven</a>
+										<div class="small-ideaal doit-height-list">
+											<p class="mb-0"><b>Inclusief:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>intakegesprek 
+													<a href="#Modal1" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</li>
+												<li>
+												advies digital event design
+												<a href="#Modal2" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												 </li>
+												<li>online registratie + ‘branded’ event-app</li>
+												<li>mobile app geheel in eigen vormgeving</li>
+												<li>plaatsing in je eigen app store accounts  </li>
+												<li>optioneel: publieksinteractie, digitale check-in, gamification, online of hybride event</li>
+												<li>geheel in eigen vormgeving</li>
+												<li>uitgebreide on-boarding, telefonische training</li>
+												<li>set-up op basis van door jou aan te leveren materialen</li>
+												<li>mobile app voor digitale check-in</li>
+												<li>eerstelijns ondersteuning</li>
+												<li>onbeperkt uit te breiden </li>
+											</ul>
 										</div>
+										<div class="small-ideaal mb-3 small-ideaal-two">
+											<p class="mb-0 ideal-paragraph"><b>Ideaal voor:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>Events waarbij je de software, uitvoerende werkzaamheden en regie uit handen wilt geven</li>
+												<li>Events waarbij een consistente, digitale Customer Experience een belangrijke rol speelt</li>
+											</ul>
+										</div>
+										<div class="text-center mt-5 mb-4">
+											<h4 class="mb-0">vanaf <span class="big-price">2.450 EUR  </span>per event</h4>
+											
+										</div>
+										<div class="toggle my-toggle text-center">
+											<div class="togglet pl-0">
+												<p class="text-toggle">Uiteindelijke kosten afhankelijk van </p>
+												<i class="toggle-closed icon-line2-arrow-down" style="right:30px;"></i>
+												<i class="toggle-open icon-line2-arrow-up" style="right:30px;"></i> 
+											</div>
+											<div class="togglec">
+												<p class="text-small mb-0"> - Aantal uur voor de set-up (na de eerste 24 uur)</p>
+												<p class="text-small mb-0"> - Aantal extra diensten zoals On-Site Support en Maatwerk 	
+													 <a href="#Modal3" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> -  Aanvullende modules voor publiekinteractie, digitale check-in en meer 
+													<a href="#Modal4" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</p>
+												<p class="text-small mb-0"> - Integraties met externe systemen</p>
+											</div>
+										</div>
+										
 									</div>
-									<div class="pricing-action">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Gratis testen</a>
+									<!--  Separate -->
+
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
-									<div class="mt-4 text-center">
-										<a href="#" class="mb-4">Nu kopen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/kQH8tF" target="_blank" class="button button-dark button-rounded uppercase nomargin">Stuur mij een offerte</a>
 									</div>
 								</div>
 
@@ -250,62 +576,119 @@
 							<div class="col-lg-4">
 
 								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/brand-kit/modules/product-icons/zendesk-suite-icon-plain.svg" width="50" alt="">
-										<h3>single-event</h3>
-										<span>Wrijvingsloze	omnichannel support via elk kanaal</span>
+									<div class="pricing-title list-heights">
+										<div class="orange-logo-replace mb-4"></div>
+										<h3>do-it-yourself (DIY)</h3>
+										<p>Een compleet pakket softwarelicenties zodat je zelf aan de slag kunt om je event te voorzien van state-of-the-art technologie.</p>
 									</div>
-									<!-- <div class="pricing-price">
-										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
-									</div> -->
+									<div class="separated-plus">
+										<p class="mb-0"> <b>Online Registratie +</b></p>
+										<p class="mb-0"> <b>Event-App + </b></p>
+										<p class="mb-2"> <b>Digitale Check-In</b></p>
+									</div>
 									<div class="pricing-features">
-										<ul>
-											<li> Alles in Support, en</li>
-											<li>Live chat en messaging</li>
-											<li>Voice en Text </li>
-											<li>Kennisbank en selfservice</li>
-											<li>Dashboard en rapporten, voor elk kannal</li>
-										</ul>
-										<div class="mb-4 m-20-price">
-											<a href="#" class="mb-4">Alle functies en prijzen weergeven</a>
+										<div class="small-ideaal doit-height-list">
+											<p class="mb-0"><b>Inclusief:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>intakegesprek
+													<a href="#Modal1" data-lightbox="inline" data-target=".bs-example-modal-md">
+														<i class="icon-info-sign"></i>
+													</a> 
+												</li>
+												<li>online registratie + ‘branded’ event-app</li>
+												<li>mobile app geheel in eigen vormgeving</li>
+												<li>plaatsing in je eigen app store accounts  </li>
+												<li>optioneel: publieksinteractie, digitale check-in, gamification, online of hybride event</li>
+												<li>geheel in eigen vormgeving</li>
+												<li>set-up op basis van door jou aan te leveren materialen</li>
+												<li>mobile app voor digitale check-in</li>
+												<li>eerstelijns ondersteuning</li>
+												<li>onbeperkt uit te breiden </li>
+											</ul>
 										</div>
+										<div class="small-ideaal mb-3 small-ideaal-two">
+											<p class="mb-0 ideal-paragraph"><b>Ideaal voor:</b></p>
+											<ul class="ea-list-prices pb-0">
+												<li>Events waarbij je zelf de verantwoordelijkheid neemt voor de inrichting van je registratie en event-app</li>
+												<li>Events waarbij een consistente, digitale Customer Experience een belangrijk rol speelt</li>
+											</ul>
+										</div>
+										<div class="text-center mt-5 mb-4">
+											<h4 class="mb-0">vanaf <span class="big-price">1.750 EUR  </span>per event</h4>
+										</div>
+										<div class="toggle my-toggle text-center">
+											<div class="togglet pl-0">
+												<p class="text-toggle">Uiteindelijke kosten afhankelijk van </p>
+												<i class="toggle-closed icon-line2-arrow-down" style="right:30px;"></i>
+												<i class="toggle-open icon-line2-arrow-up" style="right:30px;"></i> 
+											</div>
+											<div class="togglec">
+												<p class="text-small">Aanvullende modules voor publiekinteractie, digitale check-in en meer 
+												<a href="#Modal4" data-lightbox="inline" data-target=".bs-example-modal-md">
+															<i class="icon-info-sign"></i>
+														</a> 
+												</p>
+											</div>
+										</div>
+										
 									</div>
-									<div class="pricing-action">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Gratis testen</a>
+									<!--  Separate -->
+
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
-									<div class="mt-4 text-center">
-										<a href="#" class="mb-4">Nu kopen</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/kQH8tF" target="_blank" class="button button-dark button-rounded uppercase nomargin">Stuur mij een offerte</a>
+									</div>
+								</div>
+
+							</div>
+							<div class="w-100 mt-5"></div>
+							<div class="col-lg-4">
+
+								<div class="pricing-box">
+									<div class="pricing-title height-pricing-title mb-3">
+										<div class="orange-logo-replace mb-4"></div>
+										<h3>meet & match</h3>
+										<p>Organiseer je een netwerkevent en is het belangrijk om deelnemers aan je evenement kennis te laten maken met de juiste persoon?</p>
+
+										<p> Dan doe je er verstandig aan het toeval een handje te helpen met Artificial Intelligence. Onze Meet & Match app, zorgt er voor dat je waardevolle connecties tot stand brengt. Ook prima in te zetten voor speeddates tussen aankomende werkgever en potentiële werknemer.</p>
+									</div>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
 								</div>
 
 							</div>
 							<div class="col-lg-4">
 
-								<div class="pricing-box best-price">
-									<div class="pricing-title">
-										<img src="https://d1eipm3vz40hy0.cloudfront.net/images/p-pricing/2019/icon-build-your-own.svg" alt="">
-										<h3>multi-event</h3>
-										<span>Een persoonlijke aanpak voor ondernemers</span>
+								<div class="pricing-box">
+									<div class="pricing-title height-pricing-title mb-3">
+										<div class="orange-logo-replace mb-4"></div>
+										<h3>quiz battle</h3>
+										<p>Een snufje competitie tijdens zakelijke events zorgt voor reuring!</p><p> Met de quiz battle app dagen deelnemers elkaar uit om in één minuut zo veel mogelijk multiple choice vragen te beantwoorden. Wie de meeste goed heeft wint en vergaart het maximaal aantal punten! Iedereen speelt tegen elkaar. Een mooie vorm van Serious Gaming waarbij de vragen zelf kunnen worden ingegeven. Perfect voor het aanscherpen van de productkennis bijvoorbeeld voor de eerstvolgende sales  meeting.</p>
 									</div>
-									<!-- <div class="pricing-price">
-										<span class="price-unit">&euro;</span>12<span class="price-tenure">/mo</span>
-									</div> -->
-									<div class="pricing-features">
-										<ul>
-											<li> Alles in Zendesk Suite, en </li>
-											<li>Sunshine CRM-platform</li>
-											<li>Geavanceerde beveiliging en compliance</li>
-											<li>Verandermanagement</li>
-											<li>Implementatieservices en training</li>
-											<li>Toegewijde technische support</li>
-										</ul>
-									</div>
-									<div class="pricing-action m-51-price">
-										<a href="#" class="btn btn-danger btn-block btn-lg bgcolor border-color">Contact opnemen met sales</a>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
 									</div>
 								</div>
 
 							</div>
+							<div class="col-lg-4">
+
+								<div class="pricing-box">
+									<div class="pricing-title height-pricing-title mb-3">
+										<div class="orange-logo-replace mb-4"></div>
+										<h3>teambuilding</h3>
+										<p>Even met z'n allen de deur uit voor een kort en krachtig teambuilding event op maat. Of een lange heisessie met uitgekiende groepsopdrachten die het beste uit het team halen. </p><p>Dat kan met de veelzijdige outdoor teambuilding app. Je bepaalt zelf de locaties en opdrachten (vragen beantwoorden, foto of video maken), puntverdeling en benodigde strategie. Of je maakt gebruik van een van de vele kant-en-klare games. Ideaal voor een break-out sessie tijdens een meerdaags event.</p>
+									</div>
+									<div class="pricing-action mb-3">
+										<a href="https://commonlogic.typeform.com/to/Xb5BJ9" target="_blank" class="button button-border button-dark button-rounded uppercase nomargin">Neem contact met me op</a>
+									</div>
+								</div>
+
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -328,68 +711,56 @@
 				<div class="footer-widgets-wrap clearfix">
 
 					<div class="row">
-						<div class="col-6 col-lg-4">
-							<img class="mb-2" src="demos/bike/images/logo-foo.png" alt="" width="123">
-							<small class="d-block mb-4 text-muted">&copy; 2017-2018</small>
-							<div class="row my-4">
-								<div class="col-md-6">
-									<div class="counter counter-small text-light t400"><span class="h4" data-from="50" data-to="8465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="m-0 text-muted">Total Rented</h5>
-								</div>
 
-								<div class="col-md-6">
-									<div class="counter counter-small text-light t400"><span class="h4" data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-									<h5 class="m-0 text-muted">Clients Served</h5>
-								</div>
-							</div>
-							<div class="clear"></div>
-							<div>
-								<a href="#" class="social-icon mr-2 si-colored si-rounded si-small si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-								<a href="#" class="social-icon mr-2 si-colored si-rounded si-small si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-								<a href="#" class="social-icon mr-2 si-colored si-rounded si-small si-youtube">
-									<i class="icon-youtube"></i>
-									<i class="icon-youtube"></i>
-								</a>
-								<a href="#" class="social-icon si-colored si-rounded si-small si-appstore">
-									<i class="icon-apple"></i>
-									<i class="icon-apple"></i>
-								</a>
-							</div>
-						</div>
 						<div class="col-6 col-lg-3">
-							<h4>Features</h4>
+							<h4>FEATURES</h4>
 							<ul class="list-unstyled nobottommargin text-small">
-								<li class="mb-2"><a class="text-muted" href="#">Cool stuff</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Random feature</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Team feature</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Stuff for developers</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Another one</a></li>
-								<li><a class="text-muted" href="#">Last time</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#event-section">event-app</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#online-event">virtual event</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#online-section">online eventregistratie</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#digitale-section">digitale check-in</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#publieksinteractie-section">publieksinteractie</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#meet-section">meet & match</a></li>
+								<li class="mb-1"><a class="text-light"  href="features.html#leadgeneratie-section">leadgeneratie</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#gamification-section">gamification</a></li>
+								<li class="mb-1"><a class="text-light" href="features.html#indoornavigatie-section">indoornavigatie</a></li>
+								<li class="mb-1"><a class="text-light" href="integraties.html">integraties</a></li>
+							</ul>			
+						</div>
+						
+						<div class="col-6 col-lg-3 ">
+							<h4>VOOR WIE</h4>
+							<ul class="list-unstyled nobottommargin text-small">
+								<li class="mb-1"><a class="text-light" href="voorwie.html#congressen">congressen</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#vakbeurzen">vakbeurzent</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#evenementenbureaus">evenementenbureaus</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#bedrijven">bedrijven</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#festivals">festivals</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#onderwijsinstellingen">onderwijsinstellingen</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#reisorganisaties">reisorganisaties</a></li>
+								<li class="mb-1"><a class="text-light" href="voorwie.html#evenementenlocaties">evenementenlocaties</a></li>
+								
 							</ul>
 						</div>
-						<div class="col-6 col-lg-3 mt-5 mt-lg-0">
-							<h4>Resources</h4>
-							<ul class="list-unstyled nobottommargin text-small">
-								<li class="mb-2"><a class="text-muted" href="#">Resource</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Resource name</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Another resource</a></li>
-								<li><a class="text-muted" href="#">Final resource</a></li>
+						
+						
+						<div class="col-6 col-lg-4 mt-lg-2   ">
+							<!--<h4>About</h4> -->
+							<ul class="list-unstyled nobottommargin text-small mt-5">
+								<li class="mb-1"><a class="text-light" href="prijzen.html">PRIJZEN</a></li>
+								<li class="mb-1"><a class="text-light" href="faq.html">FAQ</a></li>
+								<li class="mb-1"><a class="text-light" href="blog.html">BLOG</a></li>
+								<li class="mb-1"><a class="text-light" href="direct-contact.html">DIRECT CONTACT</a></li>
+								
 							</ul>
 						</div>
-						<div class="col-6 col-lg-2 mt-5 mt-lg-0">
-							<h4>About</h4>
-							<ul class="list-unstyled nobottommargin text-small">
-								<li class="mb-2"><a class="text-muted" href="#">Team</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Locations</a></li>
-								<li class="mb-2"><a class="text-muted" href="#">Privacy</a></li>
-								<li><a class="text-muted" href="#">Terms</a></li>
-							</ul>
+						
+						
+						<div class="col-6 col-lg-2 mt-5 ">
+							<p class="text-light" >event-app.nl <br>is een activiteit van<br> Seabiscuit Mobile</p>							
+							<p class="text-light" >Groothandelsgebouw<br>Stationsplein 45<br>3013 AK  ROTTERDAM</p>
+							
+							 <a href="#"> <img src="images/event-app-images/Logo-footer.png" alt="Event-App Logo"></a>
 						</div>
 					</div>
 
@@ -403,16 +774,16 @@
 				<div class="container clearfix">
 
 					<div class="row align-items-center justify-content-between">
-						<div class="col-md-6">
-							Copyrights &copy; 2014 All Rights Reserved by Event-App Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						<div class="col-md-6 text-light">
+							 &copy; Seabicuit Mobile  <br>
+							<div class=""><a  class="text-light" href="#">Privacy Policy</a> | <a  class="text-light" href="#">Cookiebeleid</a> |<a  class="text-light" href="#">Algemene Voorwaarden</a></div>
 						</div>
 
-						<div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
+						<!--<div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
 							<div class="copyrights-menu copyright-links mb-0 clearfix">
 								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Price</a>/<a href="#">Contact</a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -422,6 +793,8 @@
 		</footer><!-- #footer end -->
 
 	</div><!-- #wrapper end -->
+
+	
 
 	<!-- Go To Top
 	============================================= -->
@@ -439,31 +812,7 @@
 	<script>
 		//Pricing Table Script
 		jQuery(document).ready( function($){
-			function pricingSwitcher( elementCheck, elementParent, elementPricing ) {
-				elementParent.find('.pts-left,.pts-right').removeClass('pts-switch-active');
-				elementPricing.find('.pts-switch-content-left,.pts-switch-content-right').addClass('hidden');
-
-				if( elementCheck.filter(':checked').length > 0 ) {
-					elementParent.find('.pts-right').addClass('pts-switch-active');
-					elementPricing.find('.pts-switch-content-right').removeClass('hidden');
-				} else {
-					elementParent.find('.pts-left').addClass('pts-switch-active');
-					elementPricing.find('.pts-switch-content-left').removeClass('hidden');
-				}
-			}
-
-			$('.pts-switcher').each( function(){
-				var element = $(this),
-					elementCheck = element.find(':checkbox'),
-					elementParent = $(this).parents('.pricing-tenure-switcher'),
-					elementPricing = $( elementParent.attr('data-container') );
-
-				pricingSwitcher( elementCheck, elementParent, elementPricing );
-
-				elementCheck.on( 'change', function(){
-					pricingSwitcher( elementCheck, elementParent, elementPricing );
-				});
-			});
+			$('[data-toggle="tooltip"]').tooltip();
 		});
 
 	</script>
